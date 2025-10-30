@@ -1,0 +1,1502 @@
+<?php
+
+$hardware = [
+    [
+        'title' => 'Nintendo Switch Console',
+        'slug' => 'nintendo-switch-console',
+        'platform' => 'Nintendo Switch',
+        'category' => 'Hardware',
+        'queries' => [
+            'Nintendo Switch Console',
+            'Nintendo Switch System',
+        ],
+        'platforms' => ['Nintendo Switch'],
+        'limit' => 1,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'hardware',
+        ],
+    ],
+    [
+        'title' => 'Nintendo Switch OLED Model',
+        'slug' => 'nintendo-switch-oled-model',
+        'platform' => 'Nintendo Switch',
+        'category' => 'Hardware',
+        'queries' => [
+            'Nintendo Switch OLED Model',
+            'Switch OLED',
+        ],
+        'platforms' => ['Nintendo Switch'],
+        'limit' => 1,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'hardware',
+        ],
+    ],
+    [
+        'title' => 'Nintendo Switch Lite',
+        'slug' => 'nintendo-switch-lite',
+        'platform' => 'Nintendo Switch',
+        'category' => 'Hardware',
+        'queries' => [
+            'Nintendo Switch Lite',
+            'Switch Lite',
+        ],
+        'platforms' => ['Nintendo Switch'],
+        'limit' => 1,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'hardware',
+        ],
+    ],
+    [
+        'title' => 'PlayStation 5 Console',
+        'slug' => 'playstation-5-console',
+        'platform' => 'PlayStation 5',
+        'category' => 'Hardware',
+        'queries' => [
+            'PlayStation 5 Console',
+            'PS5 Console',
+        ],
+        'platforms' => ['Sony Playstation 5'],
+        'limit' => 1,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'hardware',
+        ],
+    ],
+    [
+        'title' => 'PlayStation 5 Digital Edition',
+        'slug' => 'playstation-5-digital-edition',
+        'platform' => 'PlayStation 5',
+        'category' => 'Hardware',
+        'queries' => [
+            'PlayStation 5 Digital Edition',
+            'PS5 Digital Edition',
+        ],
+        'platforms' => ['Sony Playstation 5'],
+        'limit' => 1,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'hardware',
+        ],
+    ],
+    [
+        'title' => 'PlayStation 5 Slim',
+        'slug' => 'playstation-5-slim',
+        'platform' => 'PlayStation 5',
+        'category' => 'Hardware',
+        'queries' => [
+            'PlayStation 5 Slim',
+            'PS5 Slim',
+        ],
+        'platforms' => ['Sony Playstation 5'],
+        'limit' => 1,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'hardware',
+        ],
+    ],
+    [
+        'title' => 'Xbox Series X Console',
+        'slug' => 'xbox-series-x-console',
+        'platform' => 'Xbox Series X',
+        'category' => 'Hardware',
+        'queries' => [
+            'Xbox Series X Console',
+            'Xbox Series X',
+        ],
+        'platforms' => ['Microsoft Xbox Series X'],
+        'limit' => 1,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'hardware',
+        ],
+    ],
+    [
+        'title' => 'Xbox Series S Console',
+        'slug' => 'xbox-series-s-console',
+        'platform' => 'Xbox Series S',
+        'category' => 'Hardware',
+        'queries' => [
+            'Xbox Series S Console',
+            'Xbox Series S',
+        ],
+        'platforms' => ['Microsoft Xbox Series X'],
+        'limit' => 1,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'hardware',
+        ],
+    ],
+    [
+        'title' => 'Steam Deck',
+        'slug' => 'steam-deck',
+        'platform' => 'PC',
+        'category' => 'Hardware',
+        'queries' => [
+            'Steam Deck',
+            'Valve Steam Deck',
+        ],
+        'platforms' => ['PC'],
+        'limit' => 1,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'hardware',
+        ],
+    ],
+    [
+        'title' => 'PlayStation VR2',
+        'slug' => 'playstation-vr2',
+        'platform' => 'PlayStation 5',
+        'category' => 'Hardware',
+        'queries' => [
+            'PlayStation VR2',
+            'PS VR2',
+        ],
+        'platforms' => ['Sony Playstation 5'],
+        'limit' => 1,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'hardware',
+        ],
+    ],
+];
+
+$switchFirstParty = [
+    [
+        'title' => 'The Legend of Zelda: Tears of the Kingdom',
+        'slug' => 'zelda-tears-of-the-kingdom',
+        'platform' => 'Nintendo Switch',
+        'category' => 'Game',
+        'queries' => [
+            'The Legend of Zelda: Tears of the Kingdom',
+            'Zelda Tears of the Kingdom',
+        ],
+        'platforms' => ['Nintendo Switch'],
+        'limit' => 2,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+            'franchise' => 'The Legend of Zelda',
+        ],
+    ],
+    [
+        'title' => 'Super Mario Bros. Wonder',
+        'slug' => 'super-mario-bros-wonder',
+        'platform' => 'Nintendo Switch',
+        'category' => 'Game',
+        'queries' => [
+            'Super Mario Bros. Wonder',
+            'Mario Wonder',
+        ],
+        'platforms' => ['Nintendo Switch'],
+        'limit' => 2,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+            'franchise' => 'Super Mario Bros.',
+        ],
+    ],
+    [
+        'title' => 'Mario Kart 8 Deluxe',
+        'slug' => 'mario-kart-8-deluxe',
+        'platform' => 'Nintendo Switch',
+        'category' => 'Game',
+        'queries' => [
+            'Mario Kart 8 Deluxe',
+            'MK8 Deluxe',
+        ],
+        'platforms' => ['Nintendo Switch'],
+        'limit' => 2,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+            'franchise' => 'Mario Kart',
+        ],
+    ],
+    [
+        'title' => 'Animal Crossing: New Horizons',
+        'slug' => 'animal-crossing-new-horizons',
+        'platform' => 'Nintendo Switch',
+        'category' => 'Game',
+        'queries' => [
+            'Animal Crossing: New Horizons',
+            'Animal Crossing New Horizons',
+        ],
+        'platforms' => ['Nintendo Switch'],
+        'limit' => 2,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+            'franchise' => 'Animal Crossing',
+        ],
+    ],
+    [
+        'title' => 'Super Smash Bros. Ultimate',
+        'slug' => 'super-smash-bros-ultimate',
+        'platform' => 'Nintendo Switch',
+        'category' => 'Game',
+        'queries' => [
+            'Super Smash Bros. Ultimate',
+            'Smash Ultimate',
+        ],
+        'platforms' => ['Nintendo Switch'],
+        'limit' => 2,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+            'franchise' => 'Super Smash Bros.',
+        ],
+    ],
+    [
+        'title' => 'Splatoon 3',
+        'slug' => 'splatoon-3',
+        'platform' => 'Nintendo Switch',
+        'category' => 'Game',
+        'queries' => [
+            'Splatoon 3',
+        ],
+        'platforms' => ['Nintendo Switch'],
+        'limit' => 2,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+            'franchise' => 'Splatoon',
+        ],
+    ],
+    [
+        'title' => 'Metroid Dread',
+        'slug' => 'metroid-dread',
+        'platform' => 'Nintendo Switch',
+        'category' => 'Game',
+        'queries' => [
+            'Metroid Dread',
+        ],
+        'platforms' => ['Nintendo Switch'],
+        'limit' => 2,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+            'franchise' => 'Metroid',
+        ],
+    ],
+    [
+        'title' => 'Pikmin 4',
+        'slug' => 'pikmin-4',
+        'platform' => 'Nintendo Switch',
+        'category' => 'Game',
+        'queries' => [
+            'Pikmin 4',
+        ],
+        'platforms' => ['Nintendo Switch'],
+        'limit' => 2,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+            'franchise' => 'Pikmin',
+        ],
+    ],
+    [
+        'title' => "Luigi's Mansion 3",
+        'slug' => 'luigis-mansion-3',
+        'platform' => 'Nintendo Switch',
+        'category' => 'Game',
+        'queries' => [
+            "Luigi's Mansion 3",
+            'Luigi Mansion 3',
+        ],
+        'platforms' => ['Nintendo Switch'],
+        'limit' => 2,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+            'franchise' => "Luigi's Mansion",
+        ],
+    ],
+    [
+        'title' => 'Fire Emblem Engage',
+        'slug' => 'fire-emblem-engage',
+        'platform' => 'Nintendo Switch',
+        'category' => 'Game',
+        'queries' => [
+            'Fire Emblem Engage',
+        ],
+        'platforms' => ['Nintendo Switch'],
+        'limit' => 2,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+            'franchise' => 'Fire Emblem',
+        ],
+    ],
+    [
+        'title' => 'Xenoblade Chronicles 3',
+        'slug' => 'xenoblade-chronicles-3',
+        'platform' => 'Nintendo Switch',
+        'category' => 'Game',
+        'queries' => [
+            'Xenoblade Chronicles 3',
+        ],
+        'platforms' => ['Nintendo Switch'],
+        'limit' => 2,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+            'franchise' => 'Xenoblade Chronicles',
+        ],
+    ],
+    [
+        'title' => 'Pokemon Scarlet',
+        'slug' => 'pokemon-scarlet',
+        'platform' => 'Nintendo Switch',
+        'category' => 'Game',
+        'queries' => [
+            'Pokemon Scarlet',
+        ],
+        'platforms' => ['Nintendo Switch'],
+        'limit' => 2,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+            'franchise' => 'Pokemon',
+        ],
+    ],
+    [
+        'title' => 'Pokemon Violet',
+        'slug' => 'pokemon-violet',
+        'platform' => 'Nintendo Switch',
+        'category' => 'Game',
+        'queries' => [
+            'Pokemon Violet',
+        ],
+        'platforms' => ['Nintendo Switch'],
+        'limit' => 2,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+            'franchise' => 'Pokemon',
+        ],
+    ],
+    [
+        'title' => 'Paper Mario: The Thousand-Year Door',
+        'slug' => 'paper-mario-the-thousand-year-door-switch',
+        'platform' => 'Nintendo Switch',
+        'category' => 'Game',
+        'queries' => [
+            'Paper Mario The Thousand-Year Door',
+            'Paper Mario Thousand Year Door Switch',
+        ],
+        'platforms' => ['Nintendo Switch'],
+        'limit' => 2,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+            'franchise' => 'Paper Mario',
+        ],
+    ],
+];
+
+$playStationSpotlight = [
+    [
+        'title' => "Marvel's Spider-Man 2",
+        'slug' => 'marvels-spider-man-2',
+        'platform' => 'PlayStation 5',
+        'category' => 'Game',
+        'queries' => [
+            "Marvel's Spider-Man 2",
+            'Spider-Man 2 PS5',
+        ],
+        'platforms' => ['Sony Playstation 5'],
+        'limit' => 2,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+            'franchise' => 'Spider-Man',
+        ],
+    ],
+    [
+        'title' => 'God of War Ragnarök',
+        'slug' => 'god-of-war-ragnarok',
+        'platform' => 'PlayStation 5',
+        'category' => 'Game',
+        'queries' => [
+            'God of War Ragnarok',
+            'God of War Ragnarök',
+        ],
+        'platforms' => ['Sony Playstation 5'],
+        'limit' => 2,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+            'franchise' => 'God of War',
+        ],
+    ],
+    [
+        'title' => 'Horizon Forbidden West',
+        'slug' => 'horizon-forbidden-west',
+        'platform' => 'PlayStation 5',
+        'category' => 'Game',
+        'queries' => [
+            'Horizon Forbidden West',
+        ],
+        'platforms' => ['Sony Playstation 5'],
+        'limit' => 2,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+            'franchise' => 'Horizon',
+        ],
+    ],
+    [
+        'title' => 'Final Fantasy XVI',
+        'slug' => 'final-fantasy-xvi',
+        'platform' => 'PlayStation 5',
+        'category' => 'Game',
+        'queries' => [
+            'Final Fantasy XVI',
+            'FF16',
+        ],
+        'platforms' => ['Sony Playstation 5'],
+        'limit' => 2,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+            'franchise' => 'Final Fantasy',
+        ],
+    ],
+    [
+        'title' => 'Final Fantasy VII Rebirth',
+        'slug' => 'final-fantasy-vii-rebirth',
+        'platform' => 'PlayStation 5',
+        'category' => 'Game',
+        'queries' => [
+            'Final Fantasy VII Rebirth',
+            'FF7 Rebirth',
+        ],
+        'platforms' => ['Sony Playstation 5'],
+        'limit' => 2,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+            'franchise' => 'Final Fantasy',
+        ],
+    ],
+    [
+        'title' => 'Ratchet & Clank: Rift Apart',
+        'slug' => 'ratchet-and-clank-rift-apart',
+        'platform' => 'PlayStation 5',
+        'category' => 'Game',
+        'queries' => [
+            'Ratchet & Clank: Rift Apart',
+            'Ratchet and Clank Rift Apart',
+        ],
+        'platforms' => ['Sony Playstation 5'],
+        'limit' => 2,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+            'franchise' => 'Ratchet & Clank',
+        ],
+    ],
+    [
+        'title' => "Demon's Souls",
+        'slug' => 'demons-souls-ps5',
+        'platform' => 'PlayStation 5',
+        'category' => 'Game',
+        'queries' => [
+            "Demon's Souls",
+            "Demon's Souls PS5",
+        ],
+        'platforms' => ['Sony Playstation 5'],
+        'limit' => 2,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+            'franchise' => 'Souls',
+        ],
+    ],
+    [
+        'title' => 'Returnal',
+        'slug' => 'returnal',
+        'platform' => 'PlayStation 5',
+        'category' => 'Game',
+        'queries' => [
+            'Returnal',
+        ],
+        'platforms' => ['Sony Playstation 5'],
+        'limit' => 2,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+            'franchise' => 'Returnal',
+        ],
+    ],
+    [
+        'title' => 'Gran Turismo 7',
+        'slug' => 'gran-turismo-7',
+        'platform' => 'PlayStation 5',
+        'category' => 'Game',
+        'queries' => [
+            'Gran Turismo 7',
+            'GT7',
+        ],
+        'platforms' => ['Sony Playstation 5'],
+        'limit' => 2,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+            'franchise' => 'Gran Turismo',
+        ],
+    ],
+    [
+        'title' => 'The Last of Us Part I',
+        'slug' => 'the-last-of-us-part-i',
+        'platform' => 'PlayStation 5',
+        'category' => 'Game',
+        'queries' => [
+            'The Last of Us Part I',
+            'The Last of Us Remake',
+        ],
+        'platforms' => ['Sony Playstation 5'],
+        'limit' => 2,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+            'franchise' => 'The Last of Us',
+        ],
+    ],
+    [
+        'title' => 'Ghost of Tsushima Director\'s Cut',
+        'slug' => 'ghost-of-tsushima-directors-cut',
+        'platform' => 'PlayStation 5',
+        'category' => 'Game',
+        'queries' => [
+            'Ghost of Tsushima Directors Cut',
+            'Ghost of Tsushima PS5',
+        ],
+        'platforms' => ['Sony Playstation 5'],
+        'limit' => 2,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+            'franchise' => 'Ghost of Tsushima',
+        ],
+    ],
+    [
+        'title' => 'Helldivers 2',
+        'slug' => 'helldivers-2',
+        'platform' => 'PlayStation 5',
+        'category' => 'Game',
+        'queries' => [
+            'Helldivers 2',
+        ],
+        'platforms' => ['Sony Playstation 5'],
+        'limit' => 2,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+            'franchise' => 'Helldivers',
+        ],
+    ],
+    [
+        'title' => 'Stellar Blade',
+        'slug' => 'stellar-blade',
+        'platform' => 'PlayStation 5',
+        'category' => 'Game',
+        'queries' => [
+            'Stellar Blade',
+            'Project Eve',
+        ],
+        'platforms' => ['Sony Playstation 5'],
+        'limit' => 2,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+        ],
+    ],
+    [
+        'title' => 'Silent Hill 2',
+        'slug' => 'silent-hill-2-remake',
+        'platform' => 'PlayStation 5',
+        'category' => 'Game',
+        'queries' => [
+            'Silent Hill 2 Remake',
+            'Silent Hill 2',
+        ],
+        'platforms' => ['Sony Playstation 5'],
+        'limit' => 2,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+            'franchise' => 'Silent Hill',
+        ],
+    ],
+];
+
+$xboxSpotlight = [
+    [
+        'title' => 'Starfield',
+        'slug' => 'starfield',
+        'platform' => 'Xbox Series X',
+        'category' => 'Game',
+        'queries' => [
+            'Starfield',
+        ],
+        'platforms' => ['Microsoft Xbox Series X', 'PC'],
+        'limit' => 2,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+        ],
+    ],
+    [
+        'title' => 'Forza Horizon 5',
+        'slug' => 'forza-horizon-5',
+        'platform' => 'Xbox Series X',
+        'category' => 'Game',
+        'queries' => [
+            'Forza Horizon 5',
+        ],
+        'platforms' => ['Microsoft Xbox Series X', 'PC'],
+        'limit' => 2,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+            'franchise' => 'Forza',
+        ],
+    ],
+    [
+        'title' => 'Forza Motorsport',
+        'slug' => 'forza-motorsport-2023',
+        'platform' => 'Xbox Series X',
+        'category' => 'Game',
+        'queries' => [
+            'Forza Motorsport 2023',
+            'Forza Motorsport',
+        ],
+        'platforms' => ['Microsoft Xbox Series X', 'PC'],
+        'limit' => 2,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+            'franchise' => 'Forza',
+        ],
+    ],
+    [
+        'title' => 'Halo Infinite',
+        'slug' => 'halo-infinite',
+        'platform' => 'Xbox Series X',
+        'category' => 'Game',
+        'queries' => [
+            'Halo Infinite',
+        ],
+        'platforms' => ['Microsoft Xbox Series X'],
+        'limit' => 2,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+            'franchise' => 'Halo',
+        ],
+    ],
+    [
+        'title' => "Senua's Saga: Hellblade II",
+        'slug' => 'senuas-saga-hellblade-ii',
+        'platform' => 'Xbox Series X',
+        'category' => 'Game',
+        'queries' => [
+            "Senua's Saga: Hellblade II",
+            'Hellblade 2',
+        ],
+        'platforms' => ['Microsoft Xbox Series X', 'PC'],
+        'limit' => 2,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+            'franchise' => 'Hellblade',
+        ],
+    ],
+    [
+        'title' => 'Hi-Fi RUSH',
+        'slug' => 'hi-fi-rush',
+        'platform' => 'Xbox Series X',
+        'category' => 'Game',
+        'queries' => [
+            'Hi-Fi RUSH',
+            'Hi Fi Rush',
+        ],
+        'platforms' => ['Microsoft Xbox Series X', 'PC'],
+        'limit' => 2,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+        ],
+    ],
+    [
+        'title' => 'Sea of Thieves',
+        'slug' => 'sea-of-thieves',
+        'platform' => 'Xbox Series X',
+        'category' => 'Game',
+        'queries' => [
+            'Sea of Thieves',
+        ],
+        'platforms' => ['Microsoft Xbox Series X', 'PC'],
+        'limit' => 2,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+        ],
+    ],
+    [
+        'title' => 'Microsoft Flight Simulator',
+        'slug' => 'microsoft-flight-simulator-2020',
+        'platform' => 'Xbox Series X',
+        'category' => 'Game',
+        'queries' => [
+            'Microsoft Flight Simulator 2020',
+            'Microsoft Flight Simulator',
+        ],
+        'platforms' => ['PC', 'Microsoft Xbox Series X'],
+        'limit' => 2,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+        ],
+    ],
+    [
+        'title' => 'Grounded',
+        'slug' => 'grounded',
+        'platform' => 'Xbox Series X',
+        'category' => 'Game',
+        'queries' => [
+            'Grounded',
+        ],
+        'platforms' => ['Microsoft Xbox Series X', 'PC'],
+        'limit' => 2,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+        ],
+    ],
+    [
+        'title' => 'Avowed',
+        'slug' => 'avowed',
+        'platform' => 'Xbox Series X',
+        'category' => 'Game',
+        'queries' => [
+            'Avowed',
+        ],
+        'platforms' => ['Microsoft Xbox Series X', 'PC'],
+        'limit' => 2,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+        ],
+    ],
+    [
+        'title' => 'Gears 5',
+        'slug' => 'gears-5',
+        'platform' => 'Xbox Series X',
+        'category' => 'Game',
+        'queries' => [
+            'Gears 5',
+            'Gears of War 5',
+        ],
+        'platforms' => ['Microsoft Xbox Series X', 'PC'],
+        'limit' => 2,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+            'franchise' => 'Gears of War',
+        ],
+    ],
+    [
+        'title' => 'Ori and the Will of the Wisps',
+        'slug' => 'ori-and-the-will-of-the-wisps',
+        'platform' => 'Xbox Series X',
+        'category' => 'Game',
+        'queries' => [
+            'Ori and the Will of the Wisps',
+        ],
+        'platforms' => ['Microsoft Xbox Series X', 'PC'],
+        'limit' => 2,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+            'franchise' => 'Ori',
+        ],
+    ],
+];
+
+$multiplatformHits = [
+    [
+        'title' => 'Elden Ring',
+        'slug' => 'elden-ring',
+        'platform' => 'PC',
+        'category' => 'Game',
+        'queries' => [
+            'Elden Ring',
+        ],
+        'platforms' => ['PC', 'PlayStation 5', 'Xbox Series X'],
+        'limit' => 3,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+        ],
+    ],
+    [
+        'title' => "Baldur's Gate 3",
+        'slug' => 'baldurs-gate-3',
+        'platform' => 'PC',
+        'category' => 'Game',
+        'queries' => [
+            "Baldur's Gate 3",
+            'Baldurs Gate 3',
+        ],
+        'platforms' => ['PC', 'PlayStation 5', 'Xbox Series X'],
+        'limit' => 3,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+            'franchise' => "Baldur's Gate",
+        ],
+    ],
+    [
+        'title' => 'Cyberpunk 2077',
+        'slug' => 'cyberpunk-2077',
+        'platform' => 'PC',
+        'category' => 'Game',
+        'queries' => [
+            'Cyberpunk 2077',
+        ],
+        'platforms' => ['PC', 'PlayStation 5', 'Xbox Series X'],
+        'limit' => 3,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+        ],
+    ],
+    [
+        'title' => 'Assassin\'s Creed Mirage',
+        'slug' => 'assassins-creed-mirage',
+        'platform' => 'PC',
+        'category' => 'Game',
+        'queries' => [
+            "Assassin's Creed Mirage",
+            'Assassins Creed Mirage',
+        ],
+        'platforms' => ['PC', 'PlayStation 5', 'Xbox Series X'],
+        'limit' => 3,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+            'franchise' => "Assassin's Creed",
+        ],
+    ],
+    [
+        'title' => 'Resident Evil 4',
+        'slug' => 'resident-evil-4-remake',
+        'platform' => 'PC',
+        'category' => 'Game',
+        'queries' => [
+            'Resident Evil 4 Remake',
+            'Resident Evil 4 2023',
+        ],
+        'platforms' => ['PC', 'PlayStation 5', 'Xbox Series X'],
+        'limit' => 3,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+            'franchise' => 'Resident Evil',
+        ],
+    ],
+    [
+        'title' => 'Hogwarts Legacy',
+        'slug' => 'hogwarts-legacy',
+        'platform' => 'PC',
+        'category' => 'Game',
+        'queries' => [
+            'Hogwarts Legacy',
+        ],
+        'platforms' => ['PC', 'PlayStation 5', 'Xbox Series X', 'Nintendo Switch'],
+        'limit' => 3,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+        ],
+    ],
+    [
+        'title' => 'Lies of P',
+        'slug' => 'lies-of-p',
+        'platform' => 'PC',
+        'category' => 'Game',
+        'queries' => [
+            'Lies of P',
+        ],
+        'platforms' => ['PC', 'PlayStation 5', 'Xbox Series X'],
+        'limit' => 3,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+        ],
+    ],
+    [
+        'title' => 'Alan Wake II',
+        'slug' => 'alan-wake-2',
+        'platform' => 'PC',
+        'category' => 'Game',
+        'queries' => [
+            'Alan Wake 2',
+            'Alan Wake II',
+        ],
+        'platforms' => ['PC', 'PlayStation 5', 'Xbox Series X'],
+        'limit' => 3,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+            'franchise' => 'Alan Wake',
+        ],
+    ],
+    [
+        'title' => 'Call of Duty: Modern Warfare III',
+        'slug' => 'call-of-duty-modern-warfare-iii-2023',
+        'platform' => 'PC',
+        'category' => 'Game',
+        'queries' => [
+            'Call of Duty Modern Warfare III',
+            'Modern Warfare 3 2023',
+        ],
+        'platforms' => ['PC', 'PlayStation 5', 'Xbox Series X'],
+        'limit' => 3,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+            'franchise' => 'Call of Duty',
+        ],
+    ],
+    [
+        'title' => 'Dragon\'s Dogma 2',
+        'slug' => 'dragons-dogma-2',
+        'platform' => 'PC',
+        'category' => 'Game',
+        'queries' => [
+            "Dragon's Dogma 2",
+            'Dragons Dogma II',
+        ],
+        'platforms' => ['PC', 'PlayStation 5', 'Xbox Series X'],
+        'limit' => 3,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+            'franchise' => "Dragon's Dogma",
+        ],
+    ],
+    [
+        'title' => 'Tekken 8',
+        'slug' => 'tekken-8',
+        'platform' => 'PC',
+        'category' => 'Game',
+        'queries' => [
+            'Tekken 8',
+        ],
+        'platforms' => ['PC', 'PlayStation 5', 'Xbox Series X'],
+        'limit' => 3,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+            'franchise' => 'Tekken',
+        ],
+    ],
+    [
+        'title' => 'Like a Dragon: Infinite Wealth',
+        'slug' => 'like-a-dragon-infinite-wealth',
+        'platform' => 'PC',
+        'category' => 'Game',
+        'queries' => [
+            'Like a Dragon Infinite Wealth',
+            'Yakuza Infinite Wealth',
+        ],
+        'platforms' => ['PC', 'PlayStation 5', 'Xbox Series X'],
+        'limit' => 3,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+            'franchise' => 'Yakuza',
+        ],
+    ],
+    [
+        'title' => 'Persona 3 Reload',
+        'slug' => 'persona-3-reload',
+        'platform' => 'PC',
+        'category' => 'Game',
+        'queries' => [
+            'Persona 3 Reload',
+        ],
+        'platforms' => ['PC', 'PlayStation 5', 'Xbox Series X'],
+        'limit' => 3,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+            'franchise' => 'Persona',
+        ],
+    ],
+    [
+        'title' => 'Diablo IV',
+        'slug' => 'diablo-iv',
+        'platform' => 'PC',
+        'category' => 'Game',
+        'queries' => [
+            'Diablo 4',
+            'Diablo IV',
+        ],
+        'platforms' => ['PC', 'PlayStation 5', 'Xbox Series X'],
+        'limit' => 3,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+            'franchise' => 'Diablo',
+        ],
+    ],
+    [
+        'title' => 'Mortal Kombat 1',
+        'slug' => 'mortal-kombat-1-2023',
+        'platform' => 'PC',
+        'category' => 'Game',
+        'queries' => [
+            'Mortal Kombat 1',
+            'MK1 2023',
+        ],
+        'platforms' => ['PC', 'PlayStation 5', 'Xbox Series X', 'Nintendo Switch'],
+        'limit' => 3,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+            'franchise' => 'Mortal Kombat',
+        ],
+    ],
+    [
+        'title' => 'Destiny 2',
+        'slug' => 'destiny-2',
+        'platform' => 'PC',
+        'category' => 'Game',
+        'queries' => [
+            'Destiny 2',
+        ],
+        'platforms' => ['PC', 'PlayStation 5', 'Xbox Series X'],
+        'limit' => 3,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+            'franchise' => 'Destiny',
+        ],
+    ],
+    [
+        'title' => 'Palworld',
+        'slug' => 'palworld',
+        'platform' => 'PC',
+        'category' => 'Game',
+        'queries' => [
+            'Palworld',
+        ],
+        'platforms' => ['PC', 'Xbox Series X'],
+        'limit' => 3,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+        ],
+    ],
+    [
+        'title' => 'Hades II',
+        'slug' => 'hades-ii',
+        'platform' => 'PC',
+        'category' => 'Game',
+        'queries' => [
+            'Hades II',
+        ],
+        'platforms' => ['PC'],
+        'limit' => 2,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+            'franchise' => 'Hades',
+        ],
+    ],
+    [
+        'title' => 'No Man\'s Sky',
+        'slug' => 'no-mans-sky',
+        'platform' => 'PC',
+        'category' => 'Game',
+        'queries' => [
+            "No Man's Sky",
+            'No Mans Sky',
+        ],
+        'platforms' => ['PC', 'PlayStation 5', 'Xbox Series X', 'Nintendo Switch'],
+        'limit' => 3,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+        ],
+    ],
+    [
+        'title' => 'Monster Hunter Rise',
+        'slug' => 'monster-hunter-rise',
+        'platform' => 'PC',
+        'category' => 'Game',
+        'queries' => [
+            'Monster Hunter Rise',
+        ],
+        'platforms' => ['PC', 'Nintendo Switch', 'PlayStation 5', 'Xbox Series X'],
+        'limit' => 3,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+            'franchise' => 'Monster Hunter',
+        ],
+    ],
+    [
+        'title' => 'Control Ultimate Edition',
+        'slug' => 'control-ultimate-edition',
+        'platform' => 'PC',
+        'category' => 'Game',
+        'queries' => [
+            'Control Ultimate Edition',
+            'Control',
+        ],
+        'platforms' => ['PC', 'PlayStation 5', 'Xbox Series X'],
+        'limit' => 3,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+        ],
+    ],
+];
+
+$indieHighlights = [
+    [
+        'title' => 'Hollow Knight: Silksong',
+        'slug' => 'hollow-knight-silksong',
+        'platform' => 'PC',
+        'category' => 'Game',
+        'queries' => [
+            'Hollow Knight Silksong',
+        ],
+        'platforms' => ['PC', 'Nintendo Switch', 'PlayStation 5', 'Xbox Series X'],
+        'limit' => 3,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+        ],
+    ],
+    [
+        'title' => 'Cuphead',
+        'slug' => 'cuphead',
+        'platform' => 'PC',
+        'category' => 'Game',
+        'queries' => [
+            'Cuphead',
+        ],
+        'platforms' => ['PC', 'Xbox One', 'Nintendo Switch', 'PlayStation 4'],
+        'limit' => 3,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+        ],
+    ],
+    [
+        'title' => 'Celeste',
+        'slug' => 'celeste',
+        'platform' => 'PC',
+        'category' => 'Game',
+        'queries' => [
+            'Celeste',
+        ],
+        'platforms' => ['PC', 'Nintendo Switch', 'PlayStation 4', 'Xbox One'],
+        'limit' => 3,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+        ],
+    ],
+    [
+        'title' => 'Stardew Valley',
+        'slug' => 'stardew-valley',
+        'platform' => 'PC',
+        'category' => 'Game',
+        'queries' => [
+            'Stardew Valley',
+        ],
+        'platforms' => ['PC', 'Nintendo Switch', 'PlayStation 4', 'Xbox One'],
+        'limit' => 3,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+        ],
+    ],
+    [
+        'title' => 'Dead Cells',
+        'slug' => 'dead-cells',
+        'platform' => 'PC',
+        'category' => 'Game',
+        'queries' => [
+            'Dead Cells',
+        ],
+        'platforms' => ['PC', 'Nintendo Switch', 'PlayStation 4', 'Xbox One'],
+        'limit' => 3,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+        ],
+    ],
+    [
+        'title' => 'Slay the Spire',
+        'slug' => 'slay-the-spire',
+        'platform' => 'PC',
+        'category' => 'Game',
+        'queries' => [
+            'Slay the Spire',
+        ],
+        'platforms' => ['PC', 'Nintendo Switch', 'PlayStation 4', 'Xbox One'],
+        'limit' => 3,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+        ],
+    ],
+    [
+        'title' => 'Undertale',
+        'slug' => 'undertale',
+        'platform' => 'PC',
+        'category' => 'Game',
+        'queries' => [
+            'Undertale',
+        ],
+        'platforms' => ['PC', 'Nintendo Switch', 'PlayStation 4', 'Xbox One'],
+        'limit' => 3,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+        ],
+    ],
+    [
+        'title' => 'Risk of Rain 2',
+        'slug' => 'risk-of-rain-2',
+        'platform' => 'PC',
+        'category' => 'Game',
+        'queries' => [
+            'Risk of Rain 2',
+        ],
+        'platforms' => ['PC', 'Nintendo Switch', 'PlayStation 4', 'Xbox One'],
+        'limit' => 3,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+        ],
+    ],
+    [
+        'title' => 'Vampire Survivors',
+        'slug' => 'vampire-survivors',
+        'platform' => 'PC',
+        'category' => 'Game',
+        'queries' => [
+            'Vampire Survivors',
+        ],
+        'platforms' => ['PC', 'Xbox Series X', 'Nintendo Switch', 'PlayStation 5'],
+        'limit' => 3,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+        ],
+    ],
+    [
+        'title' => 'Tunic',
+        'slug' => 'tunic',
+        'platform' => 'PC',
+        'category' => 'Game',
+        'queries' => [
+            'Tunic',
+        ],
+        'platforms' => ['PC', 'Xbox Series X', 'Nintendo Switch', 'PlayStation 5'],
+        'limit' => 3,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+        ],
+    ],
+    [
+        'title' => 'Sifu',
+        'slug' => 'sifu',
+        'platform' => 'PC',
+        'category' => 'Game',
+        'queries' => [
+            'Sifu',
+        ],
+        'platforms' => ['PC', 'PlayStation 5', 'Xbox Series X', 'Nintendo Switch'],
+        'limit' => 3,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+        ],
+    ],
+    [
+        'title' => 'Spiritfarer',
+        'slug' => 'spiritfarer',
+        'platform' => 'PC',
+        'category' => 'Game',
+        'queries' => [
+            'Spiritfarer',
+        ],
+        'platforms' => ['PC', 'Nintendo Switch', 'PlayStation 4', 'Xbox One'],
+        'limit' => 3,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+        ],
+    ],
+];
+
+$retroEssentials = [
+    [
+        'title' => 'The Legend of Zelda: Ocarina of Time',
+        'slug' => 'the-legend-of-zelda-ocarina-of-time',
+        'platform' => 'Nintendo 64',
+        'category' => 'Game',
+        'queries' => [
+            'The Legend of Zelda Ocarina of Time',
+            'Zelda Ocarina of Time',
+        ],
+        'platforms' => ['Nintendo 64'],
+        'limit' => 2,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+            'franchise' => 'The Legend of Zelda',
+        ],
+    ],
+    [
+        'title' => 'Super Mario 64',
+        'slug' => 'super-mario-64',
+        'platform' => 'Nintendo 64',
+        'category' => 'Game',
+        'queries' => [
+            'Super Mario 64',
+        ],
+        'platforms' => ['Nintendo 64'],
+        'limit' => 2,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+            'franchise' => 'Super Mario Bros.',
+        ],
+    ],
+    [
+        'title' => 'Chrono Trigger',
+        'slug' => 'chrono-trigger',
+        'platform' => 'Super Nintendo',
+        'category' => 'Game',
+        'queries' => [
+            'Chrono Trigger',
+        ],
+        'platforms' => ['Super Nintendo (SNES)'],
+        'limit' => 2,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+        ],
+    ],
+    [
+        'title' => 'Final Fantasy VII',
+        'slug' => 'final-fantasy-vii',
+        'platform' => 'PlayStation',
+        'category' => 'Game',
+        'queries' => [
+            'Final Fantasy VII',
+            'FF7',
+        ],
+        'platforms' => ['Sony Playstation'],
+        'limit' => 2,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+            'franchise' => 'Final Fantasy',
+        ],
+    ],
+    [
+        'title' => 'Super Metroid',
+        'slug' => 'super-metroid',
+        'platform' => 'Super Nintendo',
+        'category' => 'Game',
+        'queries' => [
+            'Super Metroid',
+        ],
+        'platforms' => ['Super Nintendo (SNES)'],
+        'limit' => 2,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+            'franchise' => 'Metroid',
+        ],
+    ],
+    [
+        'title' => 'Metal Gear Solid 3: Snake Eater',
+        'slug' => 'metal-gear-solid-3-snake-eater',
+        'platform' => 'PlayStation 2',
+        'category' => 'Game',
+        'queries' => [
+            'Metal Gear Solid 3 Snake Eater',
+            'MGS3',
+        ],
+        'platforms' => ['Sony Playstation 2'],
+        'limit' => 2,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+            'franchise' => 'Metal Gear',
+        ],
+    ],
+    [
+        'title' => 'Halo 3',
+        'slug' => 'halo-3',
+        'platform' => 'Xbox 360',
+        'category' => 'Game',
+        'queries' => [
+            'Halo 3',
+        ],
+        'platforms' => ['Microsoft Xbox 360'],
+        'limit' => 2,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+            'franchise' => 'Halo',
+        ],
+    ],
+    [
+        'title' => 'The Last of Us',
+        'slug' => 'the-last-of-us',
+        'platform' => 'PlayStation 3',
+        'category' => 'Game',
+        'queries' => [
+            'The Last of Us',
+            'The Last of Us PS3',
+        ],
+        'platforms' => ['Sony Playstation 3'],
+        'limit' => 2,
+        'metadata' => [
+            'source' => 'thegamesdb',
+            'kind' => 'game',
+            'franchise' => 'The Last of Us',
+        ],
+    ],
+];
+
+return [
+    'games' => array_values(array_merge(
+        $hardware,
+        $switchFirstParty,
+        $playStationSpotlight,
+        $xboxSpotlight,
+        $multiplatformHits,
+        $indieHighlights,
+        $retroEssentials,
+    )),
+    'platforms' => [],
+];
